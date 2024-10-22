@@ -17,3 +17,6 @@ Module installs:
 - supervision
 - ultralytics
 - pyfirmata
+
+BIN-E is assembled using the following CAD model:
+https://cad.onshape.com/documents/3694aab9c71c20256204b78c/w/182cf645799b08a3082ab427/e/62302c27af1291cdd11432ea?renderMode=0&uiState=6717b3a449efe818c4f42009
