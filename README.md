@@ -7,3 +7,13 @@ When waste items are put into the recycling bin, the entire batch of material be
 BIN-E offers a cheap and easily implementable solution to this issue by using AI to sort trash, eliminating the possibility of human error. Users dispose of trash normally into the top section of BIN-E, where sorting occurs. A camera and Python OpenCV is used to capture the waste item, which is then identified using a custom trained YOLOv8 dataset. The item is then checked with an external database and sorted as either recyclable or non-recyclable. If the item is not found in the database, or the system is unable to recognize the item, it is automatically classified as non-recyclable to ensure there is no chance of recycling contamination. A servo-motor connected through an Arduino Uno is then instructed to rotate clockwise or counterclockwise in order to place the waste item into the correct bin.
 
 BIN-E is also able to collect data on a user's waste types for each day, and return a waste score for the week. This feature encourages users to work towards achieving sustainable waste management goals!
+
+Materials used:
+- Arduino Uno
+- Servo 9g SG90 motor
+
+Module installs:
+- opencv-python
+- supervision
+- ultralytics
+- pyfirmata
